@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  background-image: url("./Images/Rectangle\ 4.png");
+  width: 100%;
+  padding: 36px 0 160px 0;
+  h1 {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    margin-bottom: 12px;
+  }
+  p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    max-width: 236px;
+    width: 100%;
+    background: linear-gradient(90deg, #5d00fa 0%, #d70bca 100%);
+    border-radius: 46px;
+    padding: 14px 40px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  .nav {
+    // max-width: 737px;
+    width: 100%;
+    margin: 0 auto 148px auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    align-items: center;
+    h2 {
+      color: white;
+    }
+    .nav-section {
+      max-width: 327px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a.active {
+        color: #5b00fb;
+        border-top: 2px solid #5b00fb;
+      }
+      .nav-item {
+        text-decoration: none;
+        list-style: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        padding-top: 26px;
+        padding-bottom: 26px;
+      }
+    }
+  }
+}
+.main {
+  background: linear-gradient(90deg, #5d00fa 0%, #d70bca 100%);
+  .main-section-background {
+    background-color: rgba(0, 0, 0, 0.863);
+    padding-top: 90px;
+    .main-section {
+      h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+.group-section {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto ;
+  h2 {
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+  }
+  .group-item {
+    background: radial-gradient(
+      2464.13% 850.69% at 100% 6.65%,
+      #bb82db 0%,
+      #636dc1 19.3%,
+      #1d0f35 100%
+    );
+    margin-bottom: 160px;
+    border-radius: 10px;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    img {
+      width: 215px;
+      height: 215px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      color: white;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    button {
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 14px 46px;
+      border-radius: 37px;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+      
+    }
+  }
+}
+.songs-section {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto ;
+  flex-wrap: wrap;
+  .song-item{
+    background: radial-gradient(
+      2464.13% 850.69% at 100% 6.65%,
+      #bb82db 0%,
+      #636dc1 19.3%,
+      #1d0f35 100%
+    );
+    margin-bottom: 160px;
+    border-radius: 10px;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    button {
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 14px 46px;
+      border-radius: 37px;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+      
+    }
+    img {
+      width: 215px;
+      height: 215px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      color: white;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  }
+  
+}
